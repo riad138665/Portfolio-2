@@ -1,0 +1,699 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+/* header starts here  */
+
+header{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    position: fixed;
+    z-index: 10;
+    background-color: #fff;
+    
+
+}
+header div {
+    float: left;
+    justify-content: space-between;
+}
+header .logo{
+    margin-left: 150px;
+    padding: 15px;
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 200px
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: rgb(46, 40, 40);
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+header .nav ul li a:hover{
+    color: #8490FF;
+}
+.checkbtn{
+    display: none;
+    
+}
+#check{
+    display: none;
+}
+/* header end here*/
+
+
+/* banner starts here */
+.section1{
+    background-color: #F9F9FF;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .text ,.img{
+    width: 50%;
+}
+
+.section1 .text{
+    margin-left: 230px;
+    margin-bottom: 120px;
+}
+.section1 .img{
+    padding-right: 160px;
+}
+.section1 .img img{
+    max-width: 100%;
+    height: auto;
+
+}
+.text h3{
+    font-weight: 100;
+    color: gray;
+    padding: 20px 0;
+}
+.section1 .text h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+ .text p{
+    color: rgb(105, 88, 88);
+}
+ .text button{
+    padding: 12px 25px;
+    background-color:#77A2FE ;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+}
+ .text button:hover{
+    box-shadow: 2px 2px 30px rgba(0, 54, 0, .5);
+    transition: all .2s ease-in;
+}
+/* banner ends here*/
+
+
+/* section2 starts here  */
+.section2{
+    
+    width: 100%;
+    height: 750px;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.section2 h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+.section2 .text{
+    margin-right: 130px;
+    
+}
+.section2 .img{
+    padding-left: 160px;
+}
+.section2 .img img{
+   width: 100%;
+    height: auto;
+
+}
+/* section2 ends here  */
+
+/* section3 starts here*/
+
+.section3{
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    
+}
+
+.section3 .head h1{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.section3 .head p{
+    width: 670px;
+    margin: 0 auto;
+    
+}
+.section3 .service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 .service .ser1{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0;
+   
+
+}
+.section3 .service .ser1 .a1{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+.section3 .service .ser1 .a1 i{
+    font-size: 50px;
+    color:black;
+    padding: 20px;
+}
+.section3 .service .ser1 .a1 h3{
+    font-size: 20px;
+    opacity: .8;
+    padding: 20px 0;
+    padding-top: 10px;
+}
+.section3 .service .ser1 .a1 p{
+    opacity: .4;
+}
+.section3 .service .ser1 .a1:hover > i {
+    color: #77A2FE;
+    transition: .4s;
+}
+.section3 .service .ser1 .a1:hover > h3 {
+    color: #77A2FE;
+    transition: .4s;
+}
+
+/* section3 ends here */
+
+/* section4 starts here  */
+.section4{
+    background-color:#7D9AFE ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    padding: 0 50px;
+}
+.section4 .number{
+    width: 25%;
+    text-align: center;
+    color: white;
+}
+.section4 .number h1{
+    font-size: 40px;
+}
+/* section4 ends here  */
+
+/* section5 starts here  */
+.section5{
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-top: 40px;
+}
+.section5 h1{
+    font-size: 35px;
+    padding: 20px;
+}
+.section5 p{
+    opacity: .5;
+
+}
+
+.section5 .list{
+    margin-top: 60px;
+}
+.section5 .list ul{
+    list-style: none;
+    margin: 20px;
+    display: flex;
+    transition: all .8s;
+}
+.section5 .list ul li{
+    text-transform: uppercase;
+    padding: 20px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    font-weight: bold;
+   
+}
+
+.section5 .list ul li:hover{
+   border-bottom: 2px solid black;
+   
+   color: #7D9AFE;
+  
+}
+.section5 .image{
+    width: 1100px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section5 .image .card{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    padding:  20px;
+   
+}
+.section5 .image .card img{
+    width: 100%;
+    height: 350px;
+
+}
+.section5 .image .card h2{
+    padding-top: 15px;
+}
+.section5 .image .card p{
+    margin-top: 5px;
+
+}
+
+
+.section5 .image .card figure{
+    position: relative;
+}
+
+.section5 .image .card .hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 150px 130px;
+    border-radius: 10px;
+    background-color: rgba(132, 177, 250, 0.8); 
+    opacity: 0.001;
+}
+
+.section5 .image .card:hover > figure .hover{
+    opacity: 1;
+    transition: all 0.4s ease-in;
+}
+/* section5 ends here  */
+
+/* sectio6 starts here  */
+.section6{
+    width: 100%;
+    height: 750px;
+    margin-top: 70px;
+}
+.section6 .heading{
+    text-align: center;
+    padding: 20px 0;
+    margin: 50px 0;
+}
+
+.section6 .heading h1{
+    font-size: 40px;
+    line-height: 50px;
+    padding: 10px;
+}
+.section6 .heading p{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.section6 .pricecard{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+.section6 .pricecard .card1{
+    width: 300px;
+    height: 550px;
+    background-color: rgb(249, 249, 255);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+.section6 .pricecard .card1 h1{
+    font-size: 50px;
+    padding-top: 8px;
+    width: 130px;
+    height: 130px;
+    font-weight: normal;
+    border: 30px solid rgba(217, 225, 236, 0.8);
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.section6 .pricecard .card1 h2{
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+.section6 .pricecard .card1 p, h3{
+    padding: 20px;
+}
+.section6 .pricecard .card1 h3{
+    font-size: 30px;
+}
+.section6 .pricecard .card1 button{
+    outline: none;
+    border: none;
+    background-color:  rgb(249, 249, 255);
+    font-size: 22px;
+    padding: 6px 60px;
+    font-weight: bold;
+    
+
+}
+.section6 .pricecard .card1:hover{
+    background-color:#7B9CFE ;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.4s transform ease-in-out;
+}
+
+/* section6 ends here  */
+
+/* footer starts here  */
+
+footer{
+   width: 100%;
+   height: auto;
+   background-color: #04091E; 
+   margin-top: 100px;
+}
+footer .contact{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0;
+
+}
+footer .contact .about-me{
+    width: 40%;
+}
+/* footer .contact .about-me .name{
+    color: rgb(66, 101, 216);
+} */
+
+footer .contact .massage{
+    width: 40%;
+}
+footer .contact .massage input{
+    width: 85%;
+    padding: 7px 10px;
+    border: 1px solid olive;
+    
+}
+footer .contact .massage button{
+    border: none;
+    outline: none;
+    padding:7px 10px;
+    background-color: #7D9AFE;
+    color: black;
+
+}
+footer .contact .social-media{
+    width: 20%;
+}
+footer h4{
+    color: white;
+    padding: 20px 0;
+    font-size: 20px;
+}
+footer p{
+    color: rgba(187, 195, 207, 0.6);
+    padding: 20px 0;
+    
+}
+footer a i{
+    color: white;
+    padding:5px;
+}
+footer a i:hover{
+    color: #7D9AFE;
+}
+/* footer ends here  */
+
+
+/* responsive starts here  */
+@media (max-width:768px){
+    header{
+        width: 100%;
+        height: auto;
+    }
+    header .logo{
+        margin-left: 20px;
+        padding: 20px;
+    }
+    .checkbtn{
+        display: block;
+        font-size: 30px;
+        color: rgba(0, 0, 0, 0.8);
+        float: right;
+        line-height: 75px;
+        margin-right: -170px;
+    }
+    header .nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(28, 1, 65, 0.8);
+        top: 70px;
+        left: -100%;
+        transition: all .4s;
+        
+    }
+    header .nav ul li{
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+        
+    }
+   
+    header .nav ul li a{
+        font-size: 20px;
+        color: white;
+        padding-left: 20px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+
+
+    .section1{
+        width: 100%;
+        height: auto;
+        display: block;
+        
+        
+    }
+    .section1 .text{
+        margin-left: 30px;
+        padding-top: 100px;
+        width: 80%;
+    }
+    .section1 .text h1{
+        font-size: 30px;
+        padding: 10px 0;
+
+    }
+    .section1 .img{
+        margin-left: 30px;
+        width: 100%;
+        padding: 70px;
+       
+    }
+
+
+
+    
+    .section2{
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .section2 .img{
+        width: 100%;
+        padding: 0px;
+    }
+    .section2 .text{
+        margin-left: 30px;
+        width: 90%;
+    }
+    .section2 .text h1{
+        font-size: 20px;
+    }
+
+
+
+
+
+
+    .section3{
+        padding: 0 30px;
+    }
+    .section3 .head p{
+        width: 400px;
+        margin: 0 auto;
+        
+    }
+
+    .section3 .service .ser1{
+        width: 100%;
+        margin: 10px 0;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0;
+       
+    
+    }
+
+
+
+
+
+
+
+
+    .section4{
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        padding: 100px ;
+    }
+    .section4 .number{
+        padding: 30px 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .section5 .image{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .section5 .image .card{
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        height:auto;
+        padding:  20px 0px;
+       
+    }
+
+
+
+
+
+
+
+
+
+    .section6{
+        width: 100%;
+        height: auto;
+    }
+    .section6 .heading{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .section6 .pricecard{
+        width: 90%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    .section6 .pricecard .card1{
+        width: 100%;
+        height: auto;
+        margin:30px 0;
+        padding: 20px 0;
+    }
+
+
+
+
+
+
+
+
+
+
+    
+
+    footer .contact{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 30px;
+        
+    }
+    footer .contact .about-me{
+        width: 100%;
+    }
+    footer .contact .massage{
+        width: 100%;
+    }
+    footer .contact .social-media{
+        width: 100%;
+        text-align: center;
+    }
+   
+}
+    
